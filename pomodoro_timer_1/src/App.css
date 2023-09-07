@@ -1,0 +1,63 @@
+:root {
+  --red: #f54e4e;
+  --green: #4aec8c;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232535;
+  color: #eee;
+}
+
+main {
+  padding-top: 50px;
+  max-width: 280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btns {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btns button {
+  background-color: transparent;
+  color: #fff;
+  width: 80px;
+  border: 0;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button.settings-btn {
+  width: auto;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  line-height: 36px;
+}
+
+button.settings-btn svg {
+  width: 36px;
+  float: left;
+  margin-right: 10px;
+}
+
+label { 
+  display: block;
+  margin: 20px 0 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
